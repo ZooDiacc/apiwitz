@@ -149,3 +149,16 @@
 [2020-06-17T14:04:12.256957+02:00] slim-app.INFO: Chapter of id `1` was viewed. [] {"uid":"c8db50b"}
 [2020-06-17T14:04:31.261468+02:00] slim-app.INFO: Media of id `9` was deleted. [] {"uid":"d21c956"}
 [2020-06-17T14:05:04.005742+02:00] slim-app.INFO: Create chapter [] {"uid":"d99c102"}
+[2020-06-17T17:19:35.453439+02:00] slim-app.INFO: User of id `{"id":1,"login":"elyas","created_at":"2020-06-16T23:18:29.000000Z","updated_at":"2020-06-16T23:18:29.000000Z","token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1OTI0MDcxNzUsImV4cCI6MTU5MjQxNDM3NSwianRpIjoiNFNBSGNUeVRhdzBwbzU4ZU1iVTNwdiIsInN1YiI6MSwic2NvcGUiOlsiY2hhcHRlci5jcmVhdGUiLCJjaGFwdGVyLnJlYWQiLCJjaGFwdGVyLnVwZGF0ZSIsImNoYXB0ZXIuZGVsZXRlIiwiY2hhcHRlci5saXN0IiwiY2hhcHRlci5hbGwiXX0.g_XrRaBFhurnrygq7PLwreUrt-zPDbvgyPJzNdR9kfg","expires":1592414375}` logged in. [] {"uid":"dda4b16"}
+[2020-06-17T17:19:51.026931+02:00] slim-app.INFO: Create chapter [] {"uid":"7396446"}
+[2020-06-17T17:19:53.567745+02:00] slim-app.INFO: Create chapter [] {"uid":"d3d0b7e"}
+[2020-06-17T17:19:56.048071+02:00] slim-app.INFO: Create chapter [] {"uid":"b43457a"}
+[2020-06-17T17:19:58.117870+02:00] slim-app.INFO: Create chapter [] {"uid":"b33e0e8"}
+[2020-06-17T17:20:20.913136+02:00] slim-app.INFO: Chapter of id `1` was updated. [] {"uid":"382f8bf"}
+[2020-06-17T17:20:30.850203+02:00] slim-app.INFO: Chapter of id `1` was updated. [] {"uid":"1fb6520"}
+[2020-06-17T17:20:37.679378+02:00] slim-app.INFO: Chapter of id `1` was updated. [] {"uid":"399dd74"}
+[2020-06-17T17:20:46.623502+02:00] slim-app.INFO: Create media [] {"uid":"df0ba2f"}
+[2020-06-17T17:21:25.578429+02:00] slim-app.INFO: Create media [] {"uid":"30d2a52"}
+[2020-06-17T17:21:29.445893+02:00] slim-app.INFO: Create media [] {"uid":"f587890"}
+[2020-06-17T17:22:15.684063+02:00] slim-app.INFO: Media of id `10` was updated. [] {"uid":"73534af"}
+[2020-06-17T17:22:18.299302+02:00] slim-app.INFO: Media of id `10` was updated. [] {"uid":"a3a430d"}

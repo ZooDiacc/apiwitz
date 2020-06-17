@@ -36,9 +36,11 @@ class UpdateMediaAction extends MediaAction
                 || !($this->request->getParsedBody()['type'] == 'video' || $this->request->getParsedBody()['type'] == 'picture')) {
                 throw new MediaBadRequestException();
             }
-            if (!isset($this->request->getParsedBody()['is_active'])) {
+            if (!isset($this->request->getParsedBody()['is_active'])
+                || ($this->request->getParsedBody()['is_active'] !== 0
+                && $this->request->getParsedBody()['is_active'] !== 1)) {
                 throw new MediaBadRequestException();
-            }
+        }
 
         $media->content = $this->request->getParsedBody()['content'];
         $media->url = $this->request->getParsedBody()['url'];

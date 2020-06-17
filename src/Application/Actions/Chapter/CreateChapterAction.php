@@ -30,7 +30,9 @@ class CreateChapterAction extends ChapterAction
         if (!isset($this->request->getParsedBody()['background']) || empty($this->request->getParsedBody()['background'])) {
             throw new ChapterBadRequestException();
         }
-        if (!isset($this->request->getParsedBody()['is_active'])) {
+        if (!isset($this->request->getParsedBody()['is_active'])
+            || ($this->request->getParsedBody()['is_active'] !== 0
+            && $this->request->getParsedBody()['is_active'] !== 1)) {
             throw new ChapterBadRequestException();
         }
         
