@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "810c400f-9490-4d15-8f79-b2db4cdb3328",
+		"_postman_id": "ea321b10-c00e-41a4-9861-6c79d4b217e3",
 		"name": "API",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -15,7 +15,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"login\": \"elyas\",\r\n    \"password\": \"password\"\r\n}",
+							"raw": "{\r\n    \"login\": \"elyas.chaimi@hetic.net\",\r\n    \"password\": \"freebox1\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -49,7 +49,7 @@
 							"bearer": [
 								{
 									"key": "token",
-									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1OTI0MDA1OTUsImV4cCI6MTU5MjQwNzc5NSwianRpIjoiM256anBrTWpPUGg3WWZSaDFJQ0xIcCIsInN1YiI6MSwic2NvcGUiOlsiY2hhcHRlci5jcmVhdGUiLCJjaGFwdGVyLnJlYWQiLCJjaGFwdGVyLnVwZGF0ZSIsImNoYXB0ZXIuZGVsZXRlIiwiY2hhcHRlci5saXN0IiwiY2hhcHRlci5hbGwiXX0.VT65x8weKy5kv5d8jCq0eT3lmKQqVX-tR2ycgZoD11Y",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1OTI0MTI3NTYsImV4cCI6MTU5MjQxOTk1NiwianRpIjoiN2ZsMFFGSzFBUW4zcWV0NHd0endLTSIsInN1YiI6MSwic2NvcGUiOlsiY2hhcHRlci5jcmVhdGUiLCJjaGFwdGVyLnJlYWQiLCJjaGFwdGVyLnVwZGF0ZSIsImNoYXB0ZXIuZGVsZXRlIiwiY2hhcHRlci5saXN0IiwiY2hhcHRlci5hbGwiXX0.HqVBKppdxVfk3HKXw4UrL_xur6C0KgsXAJO4iLLgiTg",
 									"type": "string"
 								}
 							]
@@ -58,7 +58,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"title\": \"chapitre 2\",\r\n    \"content\": \"test\",\r\n    \"slug\": 2,\r\n    \"titlenumber\": \"2\",\r\n    \"background\": \"http\",\r\n    \"is_active\": 2\r\n}",
+							"raw": "{\r\n    \"title\": \"chapitre 2\",\r\n    \"content\": \"test\",\r\n    \"slug\": 2,\r\n    \"titlenumber\": \"2\",\r\n    \"background\": \"http\",\r\n    \"is_active\": 1\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -337,7 +337,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "393b7d11-53da-4970-974f-e2a0d22ecc11",
+				"id": "b4ff99aa-39a0-4d38-93e2-98a81f960e0c",
 				"type": "text/javascript",
 				"exec": [
 					""
@@ -347,7 +347,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "7d08e5ee-63ce-46ae-ab46-d5634ff1536d",
+				"id": "86a5da79-291a-4e84-8ccd-1d26da605aee",
 				"type": "text/javascript",
 				"exec": [
 					""
