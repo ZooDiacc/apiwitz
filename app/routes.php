@@ -44,9 +44,11 @@ return function (App $app) {
             $group->delete('', DeleteChapterAction::class);
             $group->put('', UpdateChapterAction::class);
         })->add(new Tuupola\Middleware\JwtAuthentication([
+            "secure" => false,
             "secret" => getenv("JWT_SECRET") ?: 'secret'
         ]));
         $group->post('', CreateChapterAction::class)->add(new Tuupola\Middleware\JwtAuthentication([
+            "secure" => false,
             "secret" => getenv("JWT_SECRET") ?: 'secret'
         ]));
         $group->get('/{chapterId}/medias', ListMediasAction::class);
